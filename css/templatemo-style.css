@@ -173,6 +173,7 @@ h1,h2,h3,h4,h5
 	{
         background: url('../images/Timmy.jpg');
         background-size: cover;
+        background-position-x: 50%;
         background-repeat: no-repeat;
         padding-top: 120px;
         padding-bottom: 140px;
@@ -309,7 +310,7 @@ h1,h2,h3,h4,h5
     }
 #portfolio .portfolio-thumb .portfolio-overlay
     {
-        background: skyblue;
+        background: skyblue;        
         top: 0;
         left: 0;
         right: 0;
@@ -321,6 +322,11 @@ h1,h2,h3,h4,h5
         padding-top: 60px;
         transition: all 0.4s ease-in-out;
     }
+    .portfolio-overlay h4, h5{
+        color: red;
+    }
+    
+
 #portfolio .portfolio-thumb:hover .portfolio-overlay
     {
         cursor: pointer;
